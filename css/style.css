@@ -1,0 +1,98 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background-image: url("../asset/img/1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main {
+  width: 350px !important;
+  background-color: white;
+  border-radius: 5px;
+}
+body main .login-img {
+  transform: translateY(-25px);
+  border-radius: 5px;
+  background-color: #0075fc;
+}
+body main #sec-Login {
+  transition: 0.1s !important;
+}
+body main #sec-Signup {
+  transition: 0.1s !important;
+}
+body main .icon-login .bi {
+  transition: 0.4s;
+  position: relative;
+}
+body main .icon-login .bi::after {
+  content: " ";
+  display: flex;
+  width: 0;
+  height: 0;
+  border: 1px solid rgba(221, 221, 221, 0.498);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  transition: 0.4s;
+  opacity: 0;
+}
+body main .icon-login .bi:hover {
+  transform: translateY(-3px);
+}
+body main .icon-login .bi:hover::after {
+  width: 170%;
+  height: 110%;
+  opacity: 1;
+}
+body main .box {
+  position: relative;
+}
+body main .box input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #d9dee1;
+}
+body main .box span .bi {
+  color: #0075fc;
+  font-size: 20px;
+  position: absolute;
+  top: 13px;
+  left: 0;
+}
+body main .chek {
+  color: #d9dee1;
+  font-size: 10px !important;
+}
+body main .btn-1 {
+  border: none;
+  outline: none;
+  background-color: #0075fc !important;
+  color: white !important;
+  transition: 0.4s;
+  box-shadow: 0 4px 20px 0 rgba(0, 123, 255, 0.14), 0 7px 10px -5px rgba(0, 82, 234, 0.4);
+  border-radius: 5px;
+}
+body main .btn-1:hover {
+  transform: translateY(-3px);
+  background-color: #0750a4 !important;
+}
+body main .singup {
+  font-size: 12px;
+  color: #d9dee1;
+}
+body main .singup span {
+  color: #0075fc;
+}/*# sourceMappingURL=style.css.map */
